@@ -61,6 +61,7 @@ For allowing access to certain groups of users use (bit-) sum of needed value:
 For example for allowing running Actions only for OWNER(64) and COLLABORATOR's(1) you should set value to 65 = 1+64.
 
 Append this value to file: `.github/.RunActionOnCommitAccess`, **attention** don't add any extra symbols to file.
+
 Value cached for __120s__.
 
 Actual link: https://github.com/afwn90cj93201nixr2e1re/RunActionOnCommit/blob/master/DEFAULT_BITS.md
