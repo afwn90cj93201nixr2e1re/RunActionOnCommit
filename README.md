@@ -40,6 +40,7 @@ Supports all types of args single/double quoted.
 ### Where to find the id of a comment
 
 How to find the id of a comment will depend a lot on the use case?
+
 Everything can be touched via `${{ github.event.client_payload }}` object which contains full copy of `context.payload` and cleaned `comment.body` string.
 
 ### Access
