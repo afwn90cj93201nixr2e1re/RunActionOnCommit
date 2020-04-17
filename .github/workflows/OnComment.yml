@@ -19,7 +19,7 @@ jobs:
                 - name: Prepare comment file
                   run: |
                     echo -e "> ${{github.event.client_payload.pComment}}\n\n[${{github.event.client_payload.comment.user.login}}](${{github.event.client_payload.comment.user.url}}) commented this topic\n\n\nYou can get more info [here](${{ github.event.client_payload.repository.html_url }}/actions/runs/${{ github.run_id }})." > git_comment.txt
-                    echo -e "hooray" > git_reaction.txt
+                    echo -e "+1, laugh, heart, hooray, rocket, eyes" > git_reaction.txt
 
                 - name: Create comment context
                   if: always()
