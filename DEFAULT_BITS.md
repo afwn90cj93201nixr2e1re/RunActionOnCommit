@@ -1,6 +1,6 @@
 [Available associations](https://developer.github.com/v4/enum/commentauthorassociation/)
 
-| String | Int representation |
+| String | Int representation |фыв
 | --- | --- |
 | COLLABORATOR | 1 |
 | CONTRIBUTOR | 2 |
